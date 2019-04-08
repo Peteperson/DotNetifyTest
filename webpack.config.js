@@ -11,7 +11,6 @@ module.exports = {
 		modules: [ 'client', 'node_modules' ]
 	},
 	module: {
-		rules: [{ test: /\.jsx?$/, use: 'babel-loader', exclude: /node_modules/ },
-			{ test: /\.css$/, use: ['style-loader', 'css-loader'] }]
+		rules: [{ test: /\.jsx?$/, use: 'babel-loader', exclude: /node_modules/ }]
 	}
 };
